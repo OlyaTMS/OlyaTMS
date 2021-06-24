@@ -52,8 +52,8 @@ public class Homework {
      */
     public static double average(int[] array) {
         int count = 0;
-        for (int j : array) {
-            count += j;
+        for (int i = 0; i < array.length; i++) {
+            count += array[i];
         }
         return count / array.length;
     }
